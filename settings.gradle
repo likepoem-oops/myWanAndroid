@@ -5,10 +5,10 @@ pluginManagement {
         maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'https://www.jitpack.io' }
-        //google()
+        google()
         mavenCentral()
         //noinspection JcenterRepositoryObsolete 只用来导入垂直选项卡布局的依赖，不需要可删除
-        //jcenter()
+        jcenter()
     }
 }
 dependencyResolutionManagement {
@@ -19,10 +19,10 @@ dependencyResolutionManagement {
         maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url "https://jitpack.io" }
-        //google()
+        google()
         mavenCentral()
         //noinspection JcenterRepositoryObsolete 只用来导入垂直选项卡布局的依赖，不需要可删除
-        //jcenter()
+        jcenter()
     }
 }
 rootProject.name = "myWanAndroid"
